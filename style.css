@@ -1,0 +1,32 @@
+body{
+	background: red;
+	margin:0;
+	padding: 20px;
+	font-size: 100%,
+}
+.example{
+	float: left;
+	width: 200px;
+	height: 200px;
+	border: 15px brown solid;
+	margin:  10px;
+	background-image: url("fisi.png");
+	/*background-repeat: no-repeat;*/
+}
+.example01{
+	background-position: 0 0;
+	background-repeat: repeat-x;
+}
+.example02 {background-position: 100% 10px;}
+.example03 {background-position: center center;}
+.example04 {background-position: right bottom;}
+.example05 {
+	background-position: 50px 120px;
+	background-repeat: repeat-y;
+}
+.attach{
+	background-image: url("fisi.png");
+	background-repeat: no-repeat;
+	background-position: 50%;
+	background-attachment: fixed;
+}
