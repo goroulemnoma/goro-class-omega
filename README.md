@@ -1,0 +1,1 @@
+# goro-class-omega
